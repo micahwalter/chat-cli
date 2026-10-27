@@ -13,7 +13,7 @@ require (
 	github.com/charmbracelet/bubbletea v1.3.6
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/mattn/go-isatty v0.0.20
-	github.com/micahwalter/go-bedrock v0.2.0
+	github.com/micahwalter/go-bedrock v0.3.0
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
@@ -22,8 +22,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1
 	modernc.org/sqlite v1.38.2
 )
-
-replace github.com/micahwalter/go-bedrock => github.com/go-micah/go-bedrock v0.2.0
 
 require (
 	github.com/atotto/clipboard v0.1.4 // indirect
