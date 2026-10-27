@@ -1,9 +1,9 @@
 # Requirements: Release Automation (#98)
 
 ## Context
-GitHub issue: https://github.com/chat-cli/chat-cli/issues/98
+GitHub issue: https://github.com/micahwalter/chat-cli/issues/98
 
-Brownfield DevOps change — no application feature changes. Automate CI and release using GitHub Actions + existing GoReleaser config, updating both `chat-cli/chat-cli` and `chat-cli/homebrew-chat-cli`.
+Brownfield DevOps change — no application feature changes. Automate CI and release using GitHub Actions + existing GoReleaser config, updating both `micahwalter/chat-cli` and `micahwalter/homebrew-chat-cli`.
 
 ## Functional Requirements
 
@@ -20,7 +20,7 @@ Brownfield DevOps change — no application feature changes. Automate CI and rel
 - Pushing a semver tag (`v*`) triggers GoReleaser to:
   - Build cross-platform binaries
   - Publish a GitHub Release
-  - Push updated Homebrew formula to `chat-cli/homebrew-chat-cli`
+  - Push updated Homebrew formula to `micahwalter/homebrew-chat-cli`
 - Release workflow runs tests before publishing.
 
 ### FR4 — One-click tagging
@@ -31,7 +31,7 @@ Brownfield DevOps change — no application feature changes. Automate CI and rel
 
 ### NFR1 — Secrets
 - `GITHUB_TOKEN` (default) for release assets in this repo.
-- `HOMEBREW_TAP_DEPLOY_KEY` — SSH private key for a write deploy key on `chat-cli/homebrew-chat-cli`.
+- `HOMEBREW_TAP_DEPLOY_KEY` — SSH private key for a write deploy key on `micahwalter/homebrew-chat-cli`.
 
 ### NFR2 — No release on every main merge
 - Auto-releasing every merge produces too many versions; use explicit tag/dispatch instead.

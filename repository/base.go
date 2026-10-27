@@ -1,7 +1,7 @@
 // repository/base.go
 package repository
 
-import "github.com/chat-cli/chat-cli/db"
+import "github.com/micahwalter/chat-cli/db"
 
 // Repository defines the standard operations to be implemented by all repositories
 type Repository[T any] interface {

@@ -6,7 +6,7 @@
 - **Request Type**: New Feature (five related capability additions to existing commands)
 - **Scope Estimate**: Multiple Components — touches `cmd/chat.go`, `cmd/prompt.go`, `config/config.go`, `utils/`, and likely introduces at least one new file (e.g. a tool registry)
 - **Complexity Estimate**: Complex — tool use in particular introduces new control flow (multi-turn tool-call/tool-result round trips inside the streaming loop) that doesn't exist anywhere in the codebase today
-- **Related GitHub Issues**: [#81](https://github.com/chat-cli/chat-cli/issues/81) system prompt, [#82](https://github.com/chat-cli/chat-cli/issues/82) tool use, [#83](https://github.com/chat-cli/chat-cli/issues/83) prompt caching, [#84](https://github.com/chat-cli/chat-cli/issues/84) document input, [#85](https://github.com/chat-cli/chat-cli/issues/85) extended thinking
+- **Related GitHub Issues**: [#81](https://github.com/micahwalter/chat-cli/issues/81) system prompt, [#82](https://github.com/micahwalter/chat-cli/issues/82) tool use, [#83](https://github.com/micahwalter/chat-cli/issues/83) prompt caching, [#84](https://github.com/micahwalter/chat-cli/issues/84) document input, [#85](https://github.com/micahwalter/chat-cli/issues/85) extended thinking
 - **Depth**: Standard — five distinct capabilities each need functional + non-functional coverage, but this is a single team working on an existing well-understood codebase, not a multi-stakeholder/high-risk system
 
 ## Assumptions Made (flag in "Request Changes" if any are wrong)

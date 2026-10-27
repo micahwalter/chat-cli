@@ -1,6 +1,6 @@
 # Unit 1 — System Prompt Support — Code Generation Plan
 
-**Unit**: Unit 1 (System Prompt Support), issue [#81](https://github.com/chat-cli/chat-cli/issues/81)
+**Unit**: Unit 1 (System Prompt Support), issue [#81](https://github.com/micahwalter/chat-cli/issues/81)
 **Stories implemented**: Story 1.1 (`aidlc-docs/inception/user-stories/stories.md`)
 **FR/NFR coverage**: FR1.1-FR1.4, NFR1 (backward compatibility), NFR2 (TDD/coverage), NFR6 (docs)
 **Dependencies on other units**: None (Unit 1 has no dependencies)

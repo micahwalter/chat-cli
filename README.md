@@ -16,7 +16,7 @@ At this time you can install chat-cli via pre-packaged binaries (thanks to [GoRe
 
 ### Pre-Built Binaries
 
-1. Head to https://github.com/chat-cli/chat-cli/releases/latest to find the binary for your setup.
+1. Head to https://github.com/micahwalter/chat-cli/releases/latest to find the binary for your setup.
 2. Download and unzip to find a pre-compiled binary file that should work on your system.
 
 ### Homebrew
@@ -24,7 +24,7 @@ At this time you can install chat-cli via pre-packaged binaries (thanks to [GoRe
 If you have Homebrew installed on your system you can do the following two commands:
 
 ```shell
-    brew tap chat-cli/chat-cli
+    brew tap micahwalter/chat-cli
     brew install chat-cli
 ```
 
@@ -40,7 +40,7 @@ You will need [Go](https://go.dev) v1.24+ installed on your system. You can type
 To build the project from source, clone this repository to your local machine and use [Make](https://www.gnu.org/software/make/manual/make.html) to build the binary.
 
 ```shell
-    git clone git@github.com:go-micah/chat-cli.git
+    git clone git@github.com:micahwalter/chat-cli.git
     cd chat-cli
     make
 ```

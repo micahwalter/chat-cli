@@ -16,15 +16,15 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/bedrock"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/types" //nolint:goimports // false positive from CI version diff
-	"github.com/chat-cli/chat-cli/db"
-	"github.com/chat-cli/chat-cli/factory"
-	"github.com/chat-cli/chat-cli/repository"
-	"github.com/chat-cli/chat-cli/tools"
-	"github.com/chat-cli/chat-cli/utils"
+	"github.com/micahwalter/chat-cli/db"
+	"github.com/micahwalter/chat-cli/factory"
+	"github.com/micahwalter/chat-cli/repository"
+	"github.com/micahwalter/chat-cli/tools"
+	"github.com/micahwalter/chat-cli/utils"
 	uuid "github.com/satori/go.uuid" //nolint:goimports // false positive from CI version diff
 	"github.com/spf13/cobra"
 
-	conf "github.com/chat-cli/chat-cli/config"
+	conf "github.com/micahwalter/chat-cli/config"
 )
 
 // chatCmd represents the chat command

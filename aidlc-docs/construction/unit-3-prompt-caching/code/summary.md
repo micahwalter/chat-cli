@@ -1,6 +1,6 @@
 # Unit 3 — Prompt Caching — Code Generation Summary
 
-**Issue**: [#83](https://github.com/chat-cli/chat-cli/issues/83) | **Story**: 3.1 | **Plan**: `aidlc-docs/construction/plans/unit-3-prompt-caching-code-generation-plan.md`
+**Issue**: [#83](https://github.com/micahwalter/chat-cli/issues/83) | **Story**: 3.1 | **Plan**: `aidlc-docs/construction/plans/unit-3-prompt-caching-code-generation-plan.md`
 
 ## Files Created
 - `cmd/promptcache.go` — `withSystemCachePoint`, `hasSystemCachePoint`, `hasContentCachePoint`, `stripSystemCachePoints`, `stripContentCachePoints`, `buildQuestionContent` — all pure functions, all at 100% test coverage

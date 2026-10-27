@@ -1,6 +1,6 @@
 # Unit 4 — Native Document Input — Code Generation Summary
 
-**Issue**: [#84](https://github.com/chat-cli/chat-cli/issues/84) | **Story**: 4.1 | **Plan**: `aidlc-docs/construction/plans/unit-4-document-input-code-generation-plan.md`
+**Issue**: [#84](https://github.com/micahwalter/chat-cli/issues/84) | **Story**: 4.1 | **Plan**: `aidlc-docs/construction/plans/unit-4-document-input-code-generation-plan.md`
 
 ## Files Created
 - `cmd/documentinput.go` — `sanitizeDocumentName` (strips path/extension, replaces disallowed characters, falls back to a neutral name), `buildDocumentContentBlock` — both 100% covered

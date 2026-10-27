@@ -1,6 +1,6 @@
 # Unit 1 — System Prompt Support — Code Generation Summary
 
-**Issue**: [#81](https://github.com/chat-cli/chat-cli/issues/81) | **Story**: 1.1 | **Plan**: `aidlc-docs/construction/plans/unit-1-system-prompt-code-generation-plan.md`
+**Issue**: [#81](https://github.com/micahwalter/chat-cli/issues/81) | **Story**: 1.1 | **Plan**: `aidlc-docs/construction/plans/unit-1-system-prompt-code-generation-plan.md`
 
 ## Files Modified
 - `cmd/config.go` — extracted the 3 duplicated `supportedKeys` map literals into one package-level `supportedConfigKeys` map; added `"system-prompt"`; updated `Long` help text and `config list`'s `configKeys` slice

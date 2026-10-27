@@ -9,10 +9,10 @@ import (
 	"os"
 	"text/tabwriter" //nolint:goimports // false positive from CI version diff
 	//nolint:goimports // false positive from CI version diff
-	conf "github.com/chat-cli/chat-cli/config"
-	"github.com/chat-cli/chat-cli/db"
-	"github.com/chat-cli/chat-cli/factory"
-	"github.com/chat-cli/chat-cli/repository"
+	conf "github.com/micahwalter/chat-cli/config"
+	"github.com/micahwalter/chat-cli/db"
+	"github.com/micahwalter/chat-cli/factory"
+	"github.com/micahwalter/chat-cli/repository"
 	"github.com/spf13/cobra" //nolint:goimports // false positive from CI version diff
 )
 

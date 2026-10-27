@@ -1,6 +1,6 @@
 # Unit 2 — Tool Use / Function Calling — Code Generation Plan
 
-**Unit**: Unit 2, issue [#82](https://github.com/chat-cli/chat-cli/issues/82) | **Stories**: 2.1, 2.2
+**Unit**: Unit 2, issue [#82](https://github.com/micahwalter/chat-cli/issues/82) | **Stories**: 2.1, 2.2
 **FR/NFR coverage**: FR2.1-FR2.5, NFR1-NFR5, SEC-1..SEC-4, REL-1
 **Dependencies**: Unit 1 (complete) — no hard blockers, but reuses `buildSystemContentBlocks`-style extraction pattern
 

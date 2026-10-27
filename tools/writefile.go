@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/document"
-	"github.com/chat-cli/chat-cli/utils"
+	"github.com/micahwalter/chat-cli/utils"
 )
 
 // maxWriteFileSummaryPreview is the content-length threshold past which the

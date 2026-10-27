@@ -17,7 +17,7 @@ builds:
       - darwin
     ldflags:
       - -s -w
-      - -X=github.com/chat-cli/chat-cli/cmd.version=v{{.Version}}
+      - -X=github.com/micahwalter/chat-cli/cmd.version=v{{.Version}}
 
 archives:
   - format: tar.gz
@@ -44,10 +44,10 @@ changelog:
 brews:
   - name: chat-cli
     repository:
-      owner: chat-cli
+      owner: micahwalter
       name: homebrew-chat-cli
       git:
-        url: ssh://git@github.com/chat-cli/homebrew-chat-cli.git
+        url: ssh://git@github.com/micahwalter/homebrew-chat-cli.git
         private_key: "{{ .Env.HOMEBREW_TAP_DEPLOY_KEY }}"
     description: "chat-cli is a command line tool for working with llms on Amazon Bedrock"
-    homepage: "https://github.com/chat-cli/chat-cli/"
+    homepage: "https://github.com/micahwalter/chat-cli/"

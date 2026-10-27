@@ -4,7 +4,7 @@
 
 - **Type**: Go Modules (`go build`), orchestrated by a `Makefile`; releases built with GoReleaser.
 - **Configuration**:
-  - `go.mod` / `go.sum` — module `github.com/chat-cli/chat-cli`, Go 1.23.4.
+  - `go.mod` / `go.sum` — module `github.com/micahwalter/chat-cli`, Go 1.23.4.
   - `Makefile` — targets: `cli` (build to `./bin/chat-cli`), `test`, `test-coverage`, `test-short`, `benchmark`, `clean-test`, `lint` (`go vet` + `go fmt`), `clean`.
   - `.golangci.yml` — richer lint ruleset (gofmt, goimports, govet, errcheck, staticcheck, unused, gosimple, ineffassign, gosec, misspell, unparam, nakedret, prealloc, copyloopvar, gocritic) used in CI, beyond the plain `make lint`.
   - `.goreleaser.yaml` — multi-OS/arch binary + Homebrew tap release automation.
@@ -133,6 +133,6 @@ main.go -> cmd package
 - **Usage**: `cmd/chat.go` — generates a new chat session UUID when `--chat-id` isn't supplied.
 - **Purpose**: Chat session identification.
 
-### github.com/go-micah/go-bedrock (v0.2.0)
+### github.com/micahwalter/go-bedrock (v0.2.0)
 - **Usage**: `cmd/image.go` — `providers.StabilityAIStableDiffusionInvokeModelInput/Output`, `providers.AmazonTitanImageInvokeModelInput/Output`.
 - **Purpose**: Typed request/response bodies for image-generation model providers (Bedrock's `InvokeModel` takes raw JSON, so this package supplies the provider-specific schemas).

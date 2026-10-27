@@ -168,5 +168,5 @@ sequenceDiagram
 ## Infrastructure Components
 
 - **CDK Stacks**: None — this is a client application, not infrastructure-as-code.
-- **Deployment Model**: Distributed as cross-platform binaries via GoReleaser (`.goreleaser.yaml`) and a Homebrew tap (`chat-cli/chat-cli`); users run it locally against their own AWS credentials/region.
+- **Deployment Model**: Distributed as cross-platform binaries via GoReleaser (`.goreleaser.yaml`) and a Homebrew tap (`micahwalter/chat-cli`); users run it locally against their own AWS credentials/region.
 - **Networking**: No inbound networking. Outbound HTTPS calls only, to AWS Bedrock endpoints in the configured region (default `us-east-1`), authenticated via standard AWS SDK credential resolution (AWS CLI config/env/IAM role).

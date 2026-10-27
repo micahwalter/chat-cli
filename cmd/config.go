@@ -13,7 +13,7 @@ import (
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v3"
 
-	conf "github.com/chat-cli/chat-cli/config"
+	conf "github.com/micahwalter/chat-cli/config"
 )
 
 // configCmd represents the config command

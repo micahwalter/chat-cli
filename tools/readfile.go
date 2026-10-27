@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/document"
-	"github.com/chat-cli/chat-cli/utils"
+	"github.com/micahwalter/chat-cli/utils"
 )
 
 // ReadFileTool is the one built-in tool shipped with tool-use support: a

@@ -6,7 +6,7 @@
 - **Request Type**: New Feature, with a revision to an existing feature (Initiative 1 Unit 2's `--tools` opt-in flag is being replaced by automatic enablement + graceful degradation)
 - **Scope Estimate**: Multiple Components — extends the existing `tools/` package (2 new tools), introduces a genuinely new subsystem (the confirmation/permission-pattern engine) that nothing in the codebase resembles today, and changes `cmd/chat.go`'s tool-enablement wiring from Unit 2
 - **Complexity Estimate**: Complex — the permission-pattern engine (three-tier once/session/always approval, coarse pattern matching, per-repo persisted storage) is new architecture, not a simple flag/config addition like Initiatives 1-2
-- **Related GitHub Issue**: [#86](https://github.com/chat-cli/chat-cli/issues/86)
+- **Related GitHub Issue**: [#86](https://github.com/micahwalter/chat-cli/issues/86)
 - **Depth**: Comprehensive — real security-relevant design (arbitrary shell execution, filesystem writes), multiple new interaction flows, and a new persisted-state concept. Given this, User Stories and Application Design are likely warranted (final call in Workflow Planning) rather than skipped as they were in Initiative 2.
 
 ## Clarifying Questions and Answers

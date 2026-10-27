@@ -4,7 +4,7 @@ package repository
 import (
 	"fmt"
 
-	"github.com/chat-cli/chat-cli/db"
+	"github.com/micahwalter/chat-cli/db"
 )
 
 type Chat struct { //nolint:govet // fieldalignment is a minor optimization

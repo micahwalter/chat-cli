@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/chat-cli/chat-cli/db"
+	"github.com/micahwalter/chat-cli/db"
 
 	_ "modernc.org/sqlite"
 )

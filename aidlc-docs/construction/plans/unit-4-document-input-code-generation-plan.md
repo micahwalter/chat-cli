@@ -1,6 +1,6 @@
 # Unit 4 — Native Document Input — Code Generation Plan
 
-**Unit**: Unit 4, issue [#84](https://github.com/chat-cli/chat-cli/issues/84) | **Story**: 4.1
+**Unit**: Unit 4, issue [#84](https://github.com/micahwalter/chat-cli/issues/84) | **Story**: 4.1
 **FR/NFR coverage**: FR4.1-FR4.4, SEC-1 (reused), SEC-2 (new)
 **Dependencies**: Unit 2's `utils.ValidateLocalPath` (reused as-is); SDK upgrade (prerequisite) complete
 

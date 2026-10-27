@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chat-cli/chat-cli/tools"
+	"github.com/micahwalter/chat-cli/tools"
 )
 
 func newTestApprovalStore(t *testing.T, repoRoot string) *tools.ApprovalStore {

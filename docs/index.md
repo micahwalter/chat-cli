@@ -9,7 +9,7 @@ Chat-CLI is a little terminal based program that lets you interact with [LLM](#m
 Using [Homebrew](https://brew.sh/) do this:
 
 ```shell
-    brew tap chat-cli/chat-cli
+    brew tap micahwalter/chat-cli
     brew install chat-cli
 ```
 

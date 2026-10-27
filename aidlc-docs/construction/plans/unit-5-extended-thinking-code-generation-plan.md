@@ -1,6 +1,6 @@
 # Unit 5 — Extended Thinking / Reasoning Mode — Code Generation Plan
 
-**Unit**: Unit 5, issue [#85](https://github.com/chat-cli/chat-cli/issues/85) | **Story**: 5.1 (final unit)
+**Unit**: Unit 5, issue [#85](https://github.com/micahwalter/chat-cli/issues/85) | **Story**: 5.1 (final unit)
 **FR/NFR coverage**: FR5.1-FR5.4 (NFR Requirements/Design skipped: no new security surface)
 **Dependencies**: Unit 2's `accumulateStream`/`blockAccumulator` (extended, not duplicated)
 
