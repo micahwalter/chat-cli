@@ -86,7 +86,7 @@ repository -> db
 - **Purpose**: TTY detection to switch between interactive (BubbleInput) and piped (stdin buffer) input modes.
 - **License**: MIT
 
-### github.com/go-micah/go-bedrock (v0.2.0)
+### github.com/micahwalter/go-bedrock (v0.2.0)
 - **Purpose**: Provider-specific request/response types for Bedrock image models (Stability AI, Amazon Titan).
 - **License**: MIT (author-maintained companion library, smaller ecosystem footprint than the AWS SDK)
 

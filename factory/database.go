@@ -3,8 +3,8 @@ package factory
 import (
 	"fmt"
 
-	"github.com/chat-cli/chat-cli/db"
-	"github.com/chat-cli/chat-cli/db/sqlite"
+	"github.com/micahwalter/chat-cli/db"
+	"github.com/micahwalter/chat-cli/db/sqlite"
 )
 
 // CreateDatabase is a factory function that returns the appropriate database implementation

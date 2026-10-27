@@ -13,8 +13,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/document"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/types"
-	"github.com/chat-cli/chat-cli/tools"
-	"github.com/chat-cli/chat-cli/utils"
+	"github.com/micahwalter/chat-cli/tools"
+	"github.com/micahwalter/chat-cli/utils"
 )
 
 // maxToolRoundTrips caps consecutive tool-use round trips within a single

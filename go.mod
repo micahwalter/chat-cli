@@ -1,4 +1,4 @@
-module github.com/chat-cli/chat-cli
+module github.com/micahwalter/chat-cli
 
 go 1.24
 
@@ -12,15 +12,18 @@ require (
 	github.com/charmbracelet/bubbles v0.21.0
 	github.com/charmbracelet/bubbletea v1.3.6
 	github.com/charmbracelet/lipgloss v1.1.0
-	github.com/go-micah/go-bedrock v0.2.0
 	github.com/mattn/go-isatty v0.0.20
+	github.com/micahwalter/go-bedrock v0.2.0
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/cobra v1.8.1
+	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.19.0
 	golang.org/x/term v0.33.0
 	gopkg.in/yaml.v3 v3.0.1
 	modernc.org/sqlite v1.38.2
 )
+
+replace github.com/micahwalter/go-bedrock => github.com/go-micah/go-bedrock v0.2.0
 
 require (
 	github.com/atotto/clipboard v0.1.4 // indirect
@@ -64,7 +67,6 @@ require (
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	go.uber.org/atomic v1.9.0 // indirect

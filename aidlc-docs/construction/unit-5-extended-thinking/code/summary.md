@@ -1,6 +1,6 @@
 # Unit 5 — Extended Thinking / Reasoning Mode — Code Generation Summary
 
-**Issue**: [#85](https://github.com/chat-cli/chat-cli/issues/85) | **Story**: 5.1 (final unit) | **Plan**: `aidlc-docs/construction/plans/unit-5-extended-thinking-code-generation-plan.md`
+**Issue**: [#85](https://github.com/micahwalter/chat-cli/issues/85) | **Story**: 5.1 (final unit) | **Plan**: `aidlc-docs/construction/plans/unit-5-extended-thinking-code-generation-plan.md`
 
 ## ⚠️ Top Item To Verify With Real Credentials
 The `reasoning_config`/`budget_tokens` request shape (`cmd/reasoning.go`'s `buildReasoningConfig`) is **unverified** — `AdditionalModelRequestFields` is an untyped SDK field with no way to confirm the correct JSON shape by static inspection. If `--thinking` doesn't trigger reasoning output against a real model, this is the first place to check. Everything else in this unit (response-side parsing, rendering, multi-turn signature preservation) is built against fully-typed, SDK-confirmed structures.

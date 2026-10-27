@@ -1,6 +1,6 @@
 # Unit 3 — Prompt Caching — Code Generation Plan
 
-**Unit**: Unit 3, issue [#83](https://github.com/chat-cli/chat-cli/issues/83) | **Story**: 3.1
+**Unit**: Unit 3, issue [#83](https://github.com/micahwalter/chat-cli/issues/83) | **Story**: 3.1
 **FR/NFR coverage**: FR3.1-FR3.4, NFR1, NFR2 (NFR Requirements/Design skipped for this unit)
 **Dependencies**: Unit 1 (system prompt) complete; SDK upgrade (prerequisite) complete
 

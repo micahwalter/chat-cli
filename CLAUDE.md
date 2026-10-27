@@ -269,7 +269,7 @@ The project uses GoReleaser for automated releases:
 - Configuration in `.goreleaser.yaml`
 - Builds binaries for multiple OS/architecture combinations
 - Publishes to GitHub releases
-- Homebrew tap: `chat-cli/chat-cli`
+- Homebrew tap: `micahwalter/chat-cli`
 
 ## AWS Requirements
 

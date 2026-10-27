@@ -9,7 +9,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/chat-cli/chat-cli/tools"
+	"github.com/micahwalter/chat-cli/tools"
 )
 
 // InteractivePermissionGate is the concrete, terminal-facing PermissionGate

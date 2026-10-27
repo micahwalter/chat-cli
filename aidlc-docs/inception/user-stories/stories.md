@@ -4,7 +4,7 @@ Persona: **The chat-cli User** (see `personas.md`). Breakdown: Feature-based, on
 
 ---
 
-## Epic 1 — System Prompt Support (FR1, [#81](https://github.com/chat-cli/chat-cli/issues/81))
+## Epic 1 — System Prompt Support (FR1, [#81](https://github.com/micahwalter/chat-cli/issues/81))
 
 ### Story 1.1 — Set a system prompt for a session
 **As** the chat-cli User, **I want** to provide a system prompt for a `chat` or `prompt` invocation, **so that** I can give the model a persona or standing instructions without repeating them in every message.
@@ -19,7 +19,7 @@ Persona: **The chat-cli User** (see `personas.md`). Breakdown: Feature-based, on
 
 ---
 
-## Epic 2 — Tool Use / Function Calling (FR2, [#82](https://github.com/chat-cli/chat-cli/issues/82))
+## Epic 2 — Tool Use / Function Calling (FR2, [#82](https://github.com/micahwalter/chat-cli/issues/82))
 
 ### Story 2.1 — Model calls a registered tool mid-conversation
 **As** the chat-cli User, **I want** the model to be able to invoke a tool during `chat` and see the result folded back into the conversation, **so that** I get answers that require more than the model's own knowledge (e.g. reading a local file).
@@ -44,7 +44,7 @@ Persona: **The chat-cli User** (see `personas.md`). Breakdown: Feature-based, on
 
 ---
 
-## Epic 3 — Prompt Caching (FR3, [#83](https://github.com/chat-cli/chat-cli/issues/83))
+## Epic 3 — Prompt Caching (FR3, [#83](https://github.com/micahwalter/chat-cli/issues/83))
 
 ### Story 3.1 — Automatic prompt caching with graceful fallback
 **As** the chat-cli User, **I want** repeated system prompts and piped-in documents to be cached automatically, **so that** my sessions are cheaper and faster without me having to configure anything.
@@ -59,7 +59,7 @@ Persona: **The chat-cli User** (see `personas.md`). Breakdown: Feature-based, on
 
 ---
 
-## Epic 4 — Native Document Input (FR4, [#84](https://github.com/chat-cli/chat-cli/issues/84))
+## Epic 4 — Native Document Input (FR4, [#84](https://github.com/micahwalter/chat-cli/issues/84))
 
 ### Story 4.1 — Attach a non-image document to a prompt
 **As** the chat-cli User, **I want** to attach a PDF, CSV, or similar document directly (not just images), **so that** I can ask questions about real working documents, not just pictures.
@@ -74,7 +74,7 @@ Persona: **The chat-cli User** (see `personas.md`). Breakdown: Feature-based, on
 
 ---
 
-## Epic 5 — Extended Thinking / Reasoning Mode (FR5, [#85](https://github.com/chat-cli/chat-cli/issues/85))
+## Epic 5 — Extended Thinking / Reasoning Mode (FR5, [#85](https://github.com/micahwalter/chat-cli/issues/85))
 
 ### Story 5.1 — Enable extended thinking and see the reasoning distinctly
 **As** the chat-cli User, **I want** to turn on extended thinking for models that support it and see the reasoning separated from the final answer, **so that** I can understand how the model arrived at a complex answer without it being mixed into the response text.
@@ -107,7 +107,7 @@ NFR1 (backward compatibility), NFR2 (TDD/coverage), NFR4 (error handling), NFR5 
 
 FR/NFR IDs below reference `aidlc-docs/inception/requirements/builtin-tools-requirements.md` (a separate numbering space from Initiative 1's FR1-FR5 above - disambiguated here as "Epic 6/7/8" to avoid confusion with Epics 1-5).
 
-## Epic 6 — Automatic Tool-Use Enablement (FR1, [#86](https://github.com/chat-cli/chat-cli/issues/86))
+## Epic 6 — Automatic Tool-Use Enablement (FR1, [#86](https://github.com/micahwalter/chat-cli/issues/86))
 
 ### Story 6.1 — Tool use works without any flag
 **As** the chat-cli User, **I want** `chat` to make tools available to the model automatically, **so that** I don't have to remember and pass `--tools` every session.
@@ -130,7 +130,7 @@ FR/NFR IDs below reference `aidlc-docs/inception/requirements/builtin-tools-requ
 
 ---
 
-## Epic 7 — New Built-in Tools (FR2-FR4, [#86](https://github.com/chat-cli/chat-cli/issues/86))
+## Epic 7 — New Built-in Tools (FR2-FR4, [#86](https://github.com/micahwalter/chat-cli/issues/86))
 
 ### Story 7.1 — Model edits a local file
 **As** the chat-cli User, **I want** the model to be able to create or overwrite a file in my project when I've approved it, **so that** it can act like a lightweight coding assistant instead of only describing what I should change myself.
@@ -165,7 +165,7 @@ FR/NFR IDs below reference `aidlc-docs/inception/requirements/builtin-tools-requ
 
 ---
 
-## Epic 8 — Confirmation and Sticky Approval (FR5-FR7, [#86](https://github.com/chat-cli/chat-cli/issues/86))
+## Epic 8 — Confirmation and Sticky Approval (FR5-FR7, [#86](https://github.com/micahwalter/chat-cli/issues/86))
 
 ### Story 8.1 — First-time confirmation for a destructive call
 **As** the chat-cli User, **I want** to see exactly what a destructive tool call will do before it happens, **so that** I stay in control of file writes and shell commands.

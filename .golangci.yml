@@ -58,7 +58,7 @@ linters-settings:
   lll:
     line-length: 140
   goimports:
-    local-prefixes: github.com/chat-cli/chat-cli
+    local-prefixes: github.com/micahwalter/chat-cli
   gocritic:
     enabled-tags:
       - diagnostic

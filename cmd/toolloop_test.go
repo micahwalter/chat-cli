@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/types"
-	"github.com/chat-cli/chat-cli/tools"
+	"github.com/micahwalter/chat-cli/tools"
 )
 
 func malformedWriteFileChannel(toolUseID string) <-chan types.ConverseStreamOutput {

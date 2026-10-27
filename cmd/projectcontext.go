@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/chat-cli/chat-cli/utils"
+	"github.com/micahwalter/chat-cli/utils"
 )
 
 // maxContextFileSize is the size (in bytes) at which project-context file

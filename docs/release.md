@@ -3,8 +3,8 @@
 
 chat-cli uses **GitHub Actions** for continuous integration and **GoReleaser** for publishing releases. Releases update two repositories:
 
-- [chat-cli/chat-cli](https://github.com/chat-cli/chat-cli) — binaries and GitHub Release assets
-- [chat-cli/homebrew-chat-cli](https://github.com/chat-cli/homebrew-chat-cli) — Homebrew formula
+- [micahwalter/chat-cli](https://github.com/micahwalter/chat-cli) — binaries and GitHub Release assets
+- [micahwalter/homebrew-chat-cli](https://github.com/micahwalter/homebrew-chat-cli) — Homebrew formula
 
 ## Continuous integration
 
@@ -59,7 +59,7 @@ Configure these in **Settings → Secrets and variables → Actions**:
 | Secret | Purpose |
 |--------|---------|
 | `GITHUB_TOKEN` | Provided automatically; publishes release assets to this repo |
-| `HOMEBREW_TAP_DEPLOY_KEY` | SSH private key (write deploy key on `chat-cli/homebrew-chat-cli`) |
+| `HOMEBREW_TAP_DEPLOY_KEY` | SSH private key (write deploy key on `micahwalter/homebrew-chat-cli`) |
 
 Without `HOMEBREW_TAP_DEPLOY_KEY`, GoReleaser still publishes GitHub Release binaries but cannot update the Homebrew tap.
 
@@ -75,7 +75,7 @@ Add the public key to the tap repo with write access:
 
 ```bash
 gh repo deploy-key add ~/.ssh/chat-cli-homebrew-tap.pub \
-  --repo chat-cli/homebrew-chat-cli \
+  --repo micahwalter/homebrew-chat-cli \
   --title "GoReleaser release automation" \
   --allow-write
 ```
@@ -83,7 +83,7 @@ gh repo deploy-key add ~/.ssh/chat-cli-homebrew-tap.pub \
 Store the private key as a repository secret:
 
 ```bash
-gh secret set HOMEBREW_TAP_DEPLOY_KEY --repo chat-cli/chat-cli < ~/.ssh/chat-cli-homebrew-tap
+gh secret set HOMEBREW_TAP_DEPLOY_KEY --repo micahwalter/chat-cli < ~/.ssh/chat-cli-homebrew-tap
 ```
 
 ## Local GoReleaser (optional)
@@ -100,4 +100,4 @@ goreleaser release --snapshot --clean
 - `.github/workflows/tag-release.yml` — semver bump dispatch
 - `.github/workflows/release.yml` — GoReleaser on tag push
 
-Closes workflow design for [#98](https://github.com/chat-cli/chat-cli/issues/98).
+Closes workflow design for [#98](https://github.com/micahwalter/chat-cli/issues/98).

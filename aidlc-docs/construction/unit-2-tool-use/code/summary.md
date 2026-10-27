@@ -1,6 +1,6 @@
 # Unit 2 — Tool Use / Function Calling — Code Generation Summary
 
-**Issue**: [#82](https://github.com/chat-cli/chat-cli/issues/82) | **Stories**: 2.1, 2.2 | **Plan**: `aidlc-docs/construction/plans/unit-2-tool-use-code-generation-plan.md`
+**Issue**: [#82](https://github.com/micahwalter/chat-cli/issues/82) | **Stories**: 2.1, 2.2 | **Plan**: `aidlc-docs/construction/plans/unit-2-tool-use-code-generation-plan.md`
 
 ## Product Decision Made During Planning
 Tool use is **opt-in via `--tools`** (default off), not always-on, because Bedrock exposes no "supports tool use" capability check and enabling it unconditionally would risk breaking `chat` for models that reject the `ToolConfig` field. Confirmed with the user before generation began.

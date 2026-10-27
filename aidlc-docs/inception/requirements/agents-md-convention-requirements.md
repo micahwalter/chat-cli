@@ -6,7 +6,7 @@
 - **Request Type**: New Feature (single cohesive capability)
 - **Scope Estimate**: Single Component — new file-discovery/loading logic feeding into the existing system-prompt pipeline (`cmd/systemprompt.go`, `cmd/chat.go`) from #81
 - **Complexity Estimate**: Simple — no new control flow like tool use introduced; this is discovery + read + compose, on top of already-existing system-prompt plumbing
-- **Related GitHub Issue**: [#88](https://github.com/chat-cli/chat-cli/issues/88)
+- **Related GitHub Issue**: [#88](https://github.com/micahwalter/chat-cli/issues/88)
 - **Depth**: Standard — one feature, but with several concrete precedence/scope decisions that need to be explicit since they affect UX and aren't obvious defaults
 
 ## Clarifying Questions and Answers
